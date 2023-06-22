@@ -1,0 +1,34 @@
+ .certificates__container{
+    width: 600px;
+    
+    
+    
+}
+#certificates{
+    height: 100vh;
+}
+ .swiper-pagination-bullet-active{
+    background: var(--color-primary) !important;
+   
+}
+.swiper-pagination-bullet{
+    user-select: none;
+}
+.swiper-button-next, .swiper-button-prev{
+    user-select: none;
+    color: var(--color-primary) !important;
+}
+@media screen and (max-width:1024px) {
+    .certificates__container{ 
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
+/* ========Media Query Medium========== */
+
+@media screen and (max-width:600px) {
+    .certificates__container{ 
+        width: 90%;
+        
+    }
+}
