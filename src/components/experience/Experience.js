@@ -42,10 +42,10 @@ const formattedDuration = formatDuration(duration);
 const Experience = () => {
 	return (
 		<section id="experience">
-			<h5>History of my work</h5>
+			<h5>History of my Work</h5>
 			<h2 className="experience__title">My experience</h2>
 			<h5>{formattedDuration}</h5>
-			<h5>As developer</h5>
+			<h5>As Developer</h5>
 			<VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
@@ -63,7 +63,7 @@ const Experience = () => {
 					icon={<FaBusinessTime />}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Junior developer
+						Junior Developer
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">
 						Concept BPO
@@ -91,7 +91,7 @@ const Experience = () => {
 					icon={<MdSchool />}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Professional certification in cibersecurity
+						Professional Cibersecurity Certification  
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">
 						Google Certificate and Coursera
@@ -109,7 +109,7 @@ const Experience = () => {
 					icon={<MdSchool />}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Software developer tecnician
+						Software Developer Tecnician
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">
 						CESDE
@@ -126,7 +126,7 @@ const Experience = () => {
 					icon={<FaBusinessTime />}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Junior developer intership
+						Junior Developer Intership
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">
 						Concept BPO
@@ -152,7 +152,7 @@ const Experience = () => {
 					icon={<FaBusinessTime />}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Volunteer teacher
+						Volunteer Teacher
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">
 						Preuniversity for UdeA
