@@ -1,3 +1,4 @@
+
 footer{
     background: var(--color-primary);
     padding: 3rem 0;
@@ -63,4 +64,8 @@ footer a {
     .footer__socials{
         margin-bottom: 2rem;
     }
+}
+
+.permalinks li{
+        list-style: none;
 }

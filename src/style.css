@@ -7,7 +7,6 @@
     border: 0;
     outline: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
     user-select: none;
     
@@ -73,9 +72,13 @@ section > h2, section > h5 {
     color: var(--color-light);
 } 
 
-section > h2 {
+section > h2:not(.experience__title) {
     color: var(--color-primary);
     margin-bottom: 3rem;
+}
+
+.experience__title {
+    color: var(--color-primary);
 }
 
 .text-light {

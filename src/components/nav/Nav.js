@@ -18,10 +18,10 @@ const Nav = () => {
   return (
    
     <nav id="nav" className={onNav} onScroll={handleScroll}>
-      <a href="#home" title='home' onClick={()=> setActive('#')}className={active === '#'? 'active' : '' }><AiOutlineHome/></a>
+      <a href="#home" title='Home' onClick={()=> setActive('#')}className={active === '#'? 'active' : '' }><AiOutlineHome/></a>
       <a href="#about" title='About me' onClick={()=> setActive('#about')} className={active === '#about'? 'active' : '' }><AiOutlineUser/></a>
-      <a href="#experience" title='experience' onClick={()=> setActive('#experience')} className={active === '#experience'? 'active' : '' }><VscTools/></a>
-      <a href="#portafolio" title='portafolio' onClick={()=> setActive('#portafolio')} className={active === '#portafolio'? 'active' : '' }><BiBook/></a>
+      <a href="#experience" title='Experience' onClick={()=> setActive('#experience')} className={active === '#experience'? 'active' : '' }><VscTools/></a>
+      <a href="#portafolio" title='Portafolio' onClick={()=> setActive('#portafolio')} className={active === '#portafolio'? 'active' : '' }><BiBook/></a>
       <a href="#contact" title='Contact'  onClick={()=> setActive('#contact')} className={active === '#contact'? 'active' : '' }><BiMessageSquareDetail/></a>
     </nav>
   )
