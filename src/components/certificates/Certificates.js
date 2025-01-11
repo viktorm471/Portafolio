@@ -12,6 +12,9 @@ import img8 from '../../assets/certificate8.png';
 import img9 from '../../assets/certificate9.png';
 import img10 from '../../assets/certificate10.png';
 import img11 from '../../assets/certificate11.png';
+import img12 from '../../assets/certificate12.png';
+import img13 from '../../assets/certificate13.png';
+import img14 from '../../assets/certificate14.png';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,7 +28,7 @@ import './style.css'
 // import required modules
 import { Navigation, Pagination } from "swiper";
 
-const data = [img11,img10,img1,img2,img3,img4,img5,img6,img7,img8,img9]
+const data = [img14,img12,img13,img11,img10,img1,img2,img3,img4,img5,img6,img7,img8,img9]
 const Certificates = () => {
   return (
     <section id="certificates">

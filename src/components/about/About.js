@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import ME from '../../assets/me.jpg'
+import ME from '../../assets/mw.png'
 import { FaAward } from 'react-icons/fa'
 const About = () => {
   return (
@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          I have been working on personal projects, building some full-stack applications mainly in JavaScript . I consider myself as a self-taught person, I've also learned using online platforms such as LinkedIn, Platzi and free code camp . Now I am ready to be part of your company, to start learning from others.
+          I am a self-taught, an innovator who enjoys solving everyday challenges through creative software solutions. In my current role, I have successfully designed and implemented diverse applications, including mass mailing systems and business tools like CRM and CMS solutions. My primary focus is on delivering high-quality, secure, and efficient code that meets user needs.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
