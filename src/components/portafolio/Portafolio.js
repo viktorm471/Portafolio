@@ -41,21 +41,21 @@ const data = [
 		image: IMG3,
 		title: "Api Soduku Solver Node + Mocha",
 		github: "https://replit.com/@victorrestrepo1/boilerplate-project-sudoku-solver",
-		demo: "https://boilerplate-project-sudoku-solver.victorrestrepo1.repl.co",
+		// demo: "https://boilerplate-project-sudoku-solver.victorrestrepo1.repl.co",
 	},
 	{
 		id: 9,
 		image: IMG4,
 		title: "Api American/British Translator Node + Mocha",
 		github: "https://replit.com/@victorrestrepo1/boilerplate-project-american-british-english-translator#server.js",
-		demo: "https://boilerplate-project-american-british-english-translator.victorrestrepo1.repl.co/",
+		// demo: "https://boilerplate-project-american-british-english-translator.victorrestrepo1.repl.co/",
 	},
 	{
 		id: 8,
 		image: IMG5,
 		title: "Api Online OnlineChat  Node + Socket.io",
 		github: "https://replit.com/@victorrestrepo1/boilerplate-advancednode#routes.js",
-		demo: "https://boilerplate-advancednode.victorrestrepo1.repl.co/",
+		// demo: "https://boilerplate-advancednode.victorrestrepo1.repl.co/",
 	},
 	{
 		id: 7,
@@ -103,8 +103,8 @@ const data = [
 		id: 1,
 		image: IMG12,
 		title: "Calculator React",
-		github: "https://replit.com/@victorrestrepo1/boilerplate-project-american-british-english-translator#server.js",
-		demo: "https://boilerplate-project-american-british-english-translator.victorrestrepo1.repl.co/",
+		// github: "https://replit.com/@victorrestrepo1/boilerplate-project-american-british-english-translator#server.js",
+		demo: "https://codepen.io/viktorm471/pen/BarKJKg",
 	},
 ];
 
