@@ -47,6 +47,37 @@ const Experience = () => {
 			<h5>{formattedDuration}</h5>
 			<h5>As Developer</h5>
 			<VerticalTimeline>
+			<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={{
+						color: "#fff",
+					}}
+					contentArrowStyle={{
+						borderRight: "7px solid  rgb(33, 150, 243)",
+					}}
+					date="09/2025 - Present"
+					iconStyle={{
+						background: "rgb(233, 30, 99)",
+						color: "#fff",
+					}}
+					icon={<FaBusinessTime />}
+				>
+					<h3 className="vertical-timeline-element-title">
+						Devops
+					</h3>
+					<h4 className="vertical-timeline-element-subtitle">
+						Concept BPO
+					</h4>
+					<ul className="task-list">
+						<li>
+							To design, maintain, and harden server infrastructure while ensuring a robust software development lifecycle by implementing CI/CD pipelines, infrastructure automation, monitoring, and security best practices across all environments.
+						</li>
+						<li>
+							Improve backend application efficiency by leveraging Redis queues for asynchronous processing, optimizing CPU and memory usage in backend code, and enhancing overall system performance, scalability, and reliability.
+						</li>
+					</ul>
+					<p></p>
+				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={{
@@ -55,7 +86,7 @@ const Experience = () => {
 					contentArrowStyle={{
 						borderRight: "7px solid  rgb(33, 150, 243)",
 					}}
-					date="09/2023 - Present"
+					date="09/2023 - 09/2025"
 					iconStyle={{
 						background: "rgb(233, 30, 99)",
 						color: "#fff",
@@ -70,9 +101,7 @@ const Experience = () => {
 					</h4>
 					<ul className="task-list">
 						<li>
-							Developing applications tailored to customer
-							requirements, with integrations to various platforms
-							such as Meta and other mass communication providers.
+							Design and develop a corporate WhatsApp application leveraging WebSockets for real-time event handling and integrating Meta (WhatsApp Business) APIs to support automated messaging, customer interactions, and scalable backend services.
 						</li>
 						<li>
 							Enhance our internal applications while reviewing

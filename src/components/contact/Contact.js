@@ -4,6 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import { BsWhatsapp } from 'react-icons/bs'
 
 import { useRef } from 'react';
+import { showToast } from '../Utils/Meesagge';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -17,9 +18,10 @@ const Contact = () => {
     emailjs.sendForm('service_iywqx5p', 'template_51kw4wq', form.current, 'DpY_G-eLYFF9wA6mS')
       .then((result) => {
           console.log(result.text);
-          window.alert("message was send")
+          showToast("message was send", "success")
       }, (error) => {
           console.log(error.text);
+          showToast("Something went wrong. Please use other method.", "error")
       });
       setPostData({
         name:"",email:"", message:""

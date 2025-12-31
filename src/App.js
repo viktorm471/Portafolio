@@ -9,11 +9,12 @@ import Portafolio from './components/portafolio/Portafolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Certificates from './components/certificates/Certificates';
-
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
-    <>
+    <> 
+        <ToastContainer></ToastContainer>
         <Header />
         <Nav />
         <About />
